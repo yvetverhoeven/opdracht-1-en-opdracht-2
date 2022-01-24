@@ -22,7 +22,6 @@
     flex-direction: row;
     justify-content: left;
     list-style-type: none;
-    /*text-align: left;*/
 }
 
 .align-self {
@@ -35,8 +34,8 @@
 .three {
     display: flex;
     flex-direction: row;
-
 }
+
 ul {
     display: flex;
     list-style-type: none;
@@ -45,44 +44,7 @@ ul {
 li {
     padding-left: 50px;
 }
-/*    flex-direction: row;*/
-/*    justify-content: left;*/
-/*!*    list-style-type: none;*!*/
-/*   }*/
 
-/*!*.item {*!*/
-/*!*    flex-direction: column;*!*/
-/*}*/
-
-/*.item {*/
-/*    text-align: center;*/
-/*    !*justify-content: center;*!*/
-/*}*/
-
-/*ul li {*/
-/*    display: flex;*/
-/*    flex-direction: row;*/
-/*    justify-content: center;*/
-/*}*/
-
-/*.row {*/
-/*    display: flex;*/
-/*    flex-direction: row;*/
-/*    gap: 5px;*/
-/*}*/
-/*ul {*/
-/*    justify-content: space-between;*/
-/*    list-style-type: none;*/
-
-/*}*/
-
-/*div {*/
-/*!*    display: flex;*!*/
-/*!*    flex-direction: row;*!*/
-/*    align-self: flex-end;*/
-/*    text-align: right;*/
-
-/*}*/
 
 /*---------opdracht 2.4------------*/
 
@@ -98,36 +60,20 @@ form {
 
 /*-------------opdracht 2.5-------------*/
 
-/*.five {*/
-/*    display: flex;*/
-/*    flex-direction: row;*/
-/*    justify-content: flex-start;*/
-/*    margin-right: auto;*/
-/*    padding: 5px 10px 5px 10px;*/
-/*}*/
-
 .five {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-.article {
+article {
     flex-grow: 1;
     flex-shrink: 0;
     flex-basis: 360px;
 }
 
-/*.item {*/
-/*    flex: 2 10 1200px;*/
-/*}*/
-
-/*.flex-item:nth-of-type { flex: 2 0 10%;}*/
-
 .wrap {
     flex-wrap: wrap;
-    /*display: inline-block;*/
-    /*width: 1200px;*/
 }
 
 .align-content {
